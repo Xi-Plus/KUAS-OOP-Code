@@ -1,0 +1,8 @@
+1.
+a作為一個字串，是兩個8字元組成
+b是一個字元，使用int assign時，使用ASCII得到其字元
+
+2.
+a作為字串 + 為字串串接
+b作為字元 使用+為把其ASCII所代表數字+1
+// 於jdk1.7.0_55 b=b+1 得到 error: possible loss of precision

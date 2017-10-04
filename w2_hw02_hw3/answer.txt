@@ -1,0 +1,46 @@
+Q2_Byte
+Line 3
+byte為小寫 使用(byte)強制轉型成Byte
+Line 4
+static 保留字 名稱前加個底線
+
+Q2_Char
+Line 2
+static為小寫
+Line 4
+使用\跳脫字元
+Line 5
+應為\ 但應不需要
+Line 6
+應為\n
+Line 7
+使用\跳脫字元
+
+Q2_Float
+Line 3
+強制轉型(int)
+Line 4
+強制轉型(float) 在數字後面加上f
+Line 5
+分號
+
+Q2_String
+Line 3
+String的S大寫
+字串為引號
+Line 4
+String的S大寫
+字串為引號
+s3變數不可有空白
+行尾應該為分號
+Line 6
+s3變數不可有空白
+myBank的m應為小寫
+
+Q2_Test
+Line 1
+Class名應配合檔名Q2_Test
+Line 3
+變數不可數字開頭 加個底線
+Line 3
+行尾分號
