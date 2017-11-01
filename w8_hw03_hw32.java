@@ -12,31 +12,31 @@ public class hw32 {
 		String city = buf.readLine();
 		switch (city) {
 			case "舊金山":
-				df.setTimeZone(TimeZone.getTimeZone("GMT-8"));
+				df.setTimeZone(TimeZone.getTimeZone("America/Los_Angeles"));
 				System.out.println("舊金山現在時間："+df.format(new Date()));
 				break;
 			case "倫敦":
-				df.setTimeZone(TimeZone.getTimeZone("GMT+0"));
+				df.setTimeZone(TimeZone.getTimeZone("Europe/London"));
 				System.out.println("倫敦現在時間："+df.format(new Date()));
 				break;
 			case "巴黎":
-				df.setTimeZone(TimeZone.getTimeZone("GMT+1"));
+				df.setTimeZone(TimeZone.getTimeZone("Europe/Paris"));
 				System.out.println("巴黎現在時間："+df.format(new Date()));
 				break;
 			case "曼谷":
-				df.setTimeZone(TimeZone.getTimeZone("GMT+7"));
+				df.setTimeZone(TimeZone.getTimeZone("Asia/Bangkok"));
 				System.out.println("曼谷現在時間："+df.format(new Date()));
 				break;
 			case "台灣":
-				df.setTimeZone(TimeZone.getTimeZone("GMT+8"));
+				df.setTimeZone(TimeZone.getTimeZone("Asia/Taipei"));
 				System.out.println("台灣現在時間："+df.format(new Date()));
 				break;
 			case "東京":
-				df.setTimeZone(TimeZone.getTimeZone("GMT+9"));
+				df.setTimeZone(TimeZone.getTimeZone("Asia/Tokyo"));
 				System.out.println("東京現在時間："+df.format(new Date()));
 				break;
 			case "雪梨":
-				df.setTimeZone(TimeZone.getTimeZone("GMT+11"));
+				df.setTimeZone(TimeZone.getTimeZone("Australia/Sydney"));
 				System.out.println("雪梨現在時間："+df.format(new Date()));
 				break;
 			default:
