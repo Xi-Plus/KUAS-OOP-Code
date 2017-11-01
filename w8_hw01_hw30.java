@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.Arrays;
 
-public class hw30 {
+public class w8_hw01_hw30 {
 	public static void main(String[] args) throws IOException {
 		BufferedReader buf = new BufferedReader(new InputStreamReader(System.in));
 

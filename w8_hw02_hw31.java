@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class hw31 {
+public class w8_hw02_hw31 {
 	public static void main(String[] args) throws IOException {
 		BufferedReader buf = new BufferedReader(new InputStreamReader(System.in));
 

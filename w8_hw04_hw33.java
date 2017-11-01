@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class hw33 {
+public class w8_hw04_hw33 {
 	public static void main(String[] args) throws IOException {
 		BufferedReader buf = new BufferedReader(new InputStreamReader(System.in));
 

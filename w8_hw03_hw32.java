@@ -3,7 +3,7 @@ import java.util.Date;
 import java.text.SimpleDateFormat;
 import java.util.TimeZone;
 
-public class hw32 {
+public class w8_hw03_hw32 {
 	public static void main(String[] args) throws IOException {
 		BufferedReader buf = new BufferedReader(new InputStreamReader(System.in));
 		SimpleDateFormat df = new SimpleDateFormat("H：mm：ss");

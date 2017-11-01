@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 import java.text.SimpleDateFormat;
 
-public class hw34 {
+public class w8_hw05_hw34 {
 	public static void main(String[] args) throws IOException {
 		BufferedReader buf = new BufferedReader(new InputStreamReader(System.in));
 
