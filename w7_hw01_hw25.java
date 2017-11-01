@@ -1,3 +1,24 @@
+public class w7_hw01_hw25 {
+	public static void main(String[] args) {
+		System.out.println("圓形面積為："+circle(2.5));
+		System.out.println("正方形面積為："+square(8));
+		System.out.println("三角形面積為："+rectangle(4, 8));
+		System.out.println("梯形面積為："+trapezium(5, 6, 2));
+	}
+	public static double circle(double r) {
+		return r*r*3.14;
+	}
+	public static double square(double a) {
+		return a*a;
+	}
+	public static double rectangle(double a, double b) {
+		return a*b;
+	}
+	public static double trapezium(double a, double b, double h) {
+		return (a+b)*h/2;
+	}
+}
+/*
 import java.io.*;
 
 public class w7_hw01_hw25 {
@@ -65,3 +86,4 @@ public class w7_hw01_hw25 {
 		return (a+b)*h/2;
 	}
 }
+*/
