@@ -48,7 +48,7 @@ public class w8_hw05_hw34 {
 		}
 
 		String email;
-		Pattern p = Pattern.compile(".+@([^\\.]+).+");
+		Pattern p = Pattern.compile(".+@([^\\.]+).*");
 		Matcher m;
 		while (true) {
 			System.out.print("請輸入Email：");
