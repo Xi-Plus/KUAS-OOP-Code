@@ -1,0 +1,2 @@
+將Person Class裡面的建構子及函數設為protected 或 public
+因為存取權限的問題
