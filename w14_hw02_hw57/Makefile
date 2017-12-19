@@ -22,4 +22,4 @@ supervisors.class: supervisors.java Employee.class
 	javac -encoding utf8 supervisors.java
 
 clean:
-	rm -f *.class
+	del -f *.class
