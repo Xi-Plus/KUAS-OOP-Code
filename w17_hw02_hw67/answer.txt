@@ -1,0 +1,2 @@
+因為其他class沒有atk() memeber function
+檢查是否為Car class，然後強制轉型成Car後呼叫atk()
